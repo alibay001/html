@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>урок 7</title>
+    <style>
+      .yellow {
+        background-color: yellow;
+        padding: 20px;
+      }
+      .tomato {
+        background-color: tomato;
+        padding: 20px;
+      }
+      .red {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#mars">Mars</a>
+        <a href="#video">Video</a>
+        <a href="#form">Form</a>
+        <a href="#divspan">Divspan</a>
+      </nav>
+    </header>
+    <section id="mars">
+      <img
+        src="https://www.seekpng.com/png/detail/19-192147_mars-planet-white-background.png"
+        alt=""
+        width="400"
+        height="320"
+        title="Я марс"
+      />
+      <ul>
+        <li>
+          <p>Атмосфера марса состоит 95% из CO<sub>2</sub></p>
+        </li>
+        <li>
+          <p>Площадь марса состовляет 144,8млн км<sup>2</sup></p>
+        </li>
+      </ul>
+    </section>
+    <section id="video">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ojApvvDfOfA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section id="form">
+      <form>
+        <input type="text" placeholder="Почта" /><br />
+        <input type="password" name="pass" id="p1" placeholder="Пароль" />
+        <br /><label for="sheck1">Хотите получать от нас письма?</label>
+        <br />
+        <input type="submit" value="Отправить" />
+        <input type="checkbox" name="checkbox1" id="sheck1" /><br />
+        <p>Какой у вас пол?</p>
+        <label for="g1">Мужчина</label>
+        <input type="radio" name="gender" id="g1" value="Мужчина" />
+        <label for="g2">Женчина</label>
+        <input type="radio" name="gender" id="g2" value="Женчина" />
+        <label for="g3">Не видимый</label>
+        <input type="radio" name="gender" id="g3" value="Не видимый" />
+      </form>
+    </section>
+    <section id="divspan">
+      <div class="yellow">Подписывайся на наш ютуб канал</div>
+      <div class="tomato">и на твич тож не забудь</div>
+      <h1>Привет я <span class="red">красное</span> слово</h1>
+    </section>
+  </body>
+</html>
